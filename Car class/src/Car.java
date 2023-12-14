@@ -10,10 +10,10 @@ public class Car {
         this.amountOfFuel = 0;
     }
 
-    public Car(String brand, String model, int amountOfFuel) {
-        this.brand = brand;
-        this.model = model;
-        this.amountOfFuel = amountOfFuel;
+    public Car(String Car_brand, String Car_model, int Car_amountOfFuel) {
+        this.brand = Car_brand;
+        this.model = Car_model;
+        this.amountOfFuel = Car_amountOfFuel;
     }
 
     public void brake() {
