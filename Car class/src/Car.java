@@ -25,7 +25,7 @@ public class Car {
     public void accelerate() {
         if (amountOfFuel > 0) {
             System.out.println("Car is accelerating");
-            amountOfFuel;
+            amountOfFuel--;
         } else {
             System.out.println("Out of fuel, cannot accelerate!");
         }
@@ -43,6 +43,5 @@ public class Car {
     }
 
    
-    }
+    
 }
-Sysout
