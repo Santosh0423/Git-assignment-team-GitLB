@@ -3,7 +3,6 @@ public class Car {
     public String model;
     public int amountOfFuel;
 
-    
     public Car() {
      
         this.brand = "";
@@ -11,7 +10,6 @@ public class Car {
         this.amountOfFuel = 0;
     }
 
-    
     public Car(String brand, String model, int amountOfFuel) {
         this.brand = brand;
         this.model = model;
@@ -32,7 +30,7 @@ public class Car {
     }
 
     public void printData() {
-        System.out.println("Brand: " + brand + ", Model: " + model + ", Fuel: " + amountOfFuel);
+        System.out.println("Brand is: " + brand + ", Model is: " + model + ", Fuel is: " + amountOfFuel);
     }
 
     public void refuel(int amount) {
