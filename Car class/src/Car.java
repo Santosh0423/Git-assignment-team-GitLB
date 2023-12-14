@@ -3,8 +3,8 @@ public class Car {
     public String model;
     public int amountOfFuel;
 
-    public Car() {
-     
+    public Car() 
+    {
         this.brand = "";
         this.model = "";
         this.amountOfFuel = 0;
@@ -16,30 +16,31 @@ public class Car {
         this.amountOfFuel = Car_amountOfFuel;
     }
 
-    public void brake() {
+    public void car_brake() {
         System.out.println("Car is braking");
     }
 
-    public void accelerate() {
-        if (amountOfFuel > 0) {
+    public void car_accelerate() {
+        if (amountOfFuel > 0) 
+        {
             System.out.println("Car is accelerating");
             amountOfFuel--;
-        } else {
+        }
+        else 
+        {
             System.out.println("Out of fuel, cannot accelerate!");
         }
     }
 
-    public void printData() {
+    public void car_printData() {
         System.out.println("Brand is: " + brand + ", Model is: " + model + ", Fuel is: " + amountOfFuel);
     }
 
-    public void refuel(int amount) {
+    public void car_refuel(int amount) {
         System.out.println("Fuel in the tank: " + amountOfFuel);
         System.out.println("Refuel: " + amount);
         amountOfFuel += amount;
         System.out.println("Fuel in the tank after refuel: " + amountOfFuel);
     }
-
-   
     
 }
